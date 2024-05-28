@@ -32,7 +32,7 @@ function longestStringFinder(arrayOfStrings) {
 function stringsLongerThan(arrayOfStrings, number) {
   const filteredStrings = [];
   arrayOfStrings.forEach((string) => {
-    if (string.length === number) filteredStrings.push(string);
+    if (string.length > number) filteredStrings.push(string);
   });
   return filteredStrings;
 }
@@ -45,3 +45,11 @@ function everyNumberUpToN(n) {
   number++;
   everyNumberUpToN(n++);
 }
+
+module.exports = {
+  summation,
+  average,
+  longestStringFinder,
+  stringsLongerThan,
+  everyNumberUpToN,
+};
