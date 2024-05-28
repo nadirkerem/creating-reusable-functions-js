@@ -40,10 +40,10 @@ function stringsLongerThan(arrayOfStrings, number) {
 let number = 1;
 
 function everyNumberUpToN(n) {
-  if (number === n) return console.log(number);
+  if (number > n) return;
   console.log(number);
   number++;
-  everyNumberUpToN(n++);
+  everyNumberUpToN(n);
 }
 
 module.exports = {
