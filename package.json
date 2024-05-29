@@ -4,6 +4,7 @@
   "scripts": {
     "test": "jest"
   },
+  "description": "This repository contains a series of exercises that focus on creating and testing reusable functions as part of the Per Scholas Software Engineering Program.",
   "devDependencies": {
     "jest": "^29.7.0"
   }
