@@ -42,7 +42,7 @@ To set up this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/nadirkerem/creating-reusable-functions-js
    ```
 2. Install dependencies:
    ```bash
